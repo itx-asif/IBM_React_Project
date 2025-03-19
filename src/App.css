@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.background{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/274/861/non_2x/green-house-with-various-kinds-plant-in-pot-background-nursery-flower-and-plant-growing-for-decorate-in-the-garden-free-photo.JPG");
+  background-color: #000000b6;
+  background-blend-mode: overlay;
+}
+.landing-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://static.vecteezy.com/system/resources/previews/005/274/861/non_2x/green-house-with-various-kinds-plant-in-pot-background-nursery-flower-and-plant-growing-for-decorate-in-the-garden-free-photo.JPG") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4vw;
+  color: white;
+}
+
+.content {
+  max-width: 400px;
+  padding: 20px;
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+ 
+}
+
+.btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: darkgreen;
+}
+
+.text-box {
+  max-width: 850px;
+  padding: 20px;
+ 
+  color: white;
+  text-align: justify;
+  border-radius: 10px;
+}
+.text-box>p,.text-box>h2{
+  margin-bottom: 1%;
+}
